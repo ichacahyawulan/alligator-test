@@ -1,5 +1,8 @@
 # alligator-test
 
+Program for calculating the sum of two random numbers and unit testing using jest
+[Reference](https://www.digitalocean.com/community/tutorials/vuejs-vue-testing)
+
 ## Project setup
 ```
 npm install
