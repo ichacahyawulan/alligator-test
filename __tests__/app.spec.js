@@ -21,7 +21,8 @@ describe('Mounted App', () => {
 
     // it's also easy to check for the existence of elements
     it('has a button', () => {
-        expect(wrapper.contains('button')).toBe(true)
+        const button = wrapper.find('button')
+        expect(button.exists()).toBe(true)
     })
 
     it('renders correctly with different data', async () => {
